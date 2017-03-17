@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Upwork external links
-// @description  Skip "Your are now leaving Upwork" page with external links
+// @description  Skip "You are now leaving Upwork" page with external links
 // @namespace    vokracko
 // @author       Lukáš Vokráčko
 // @include      https://www.upwork.com/*
