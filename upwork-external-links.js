@@ -7,7 +7,7 @@
 // @version      1.0
 // @grant        none
 // @encoding     utf-8
-// @downloadURL  https://raw.githubusercontent.com/Upwork-external-links/master/upwork-external-links.js
+// @downloadURL  https://raw.githubusercontent.com/vokracko/Upwork-external-links/master/upwork-external-links.js
 // ==/UserScript==
 
 var target = document.querySelector('body');
