@@ -22,7 +22,8 @@ function replace() {
             if (links[i].classList.contains("url-preview-title")) {
                 links[i].href = decodeURIComponent(links[i].href.substr(35));
             } else {
-                links[i].href = links[i].text;
+                http = links[i].text.startsWith('http') ? '' : 'http://';
+                links[i].href = http + links[i].text;
             }
         }
     }
